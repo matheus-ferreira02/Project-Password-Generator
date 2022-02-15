@@ -1,0 +1,26 @@
+.App {
+  background-color: #0B0F2F;
+  border-radius: 10px;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: 0 0 1em #0B0F2F;
+}
+
+.box_style {
+  border-radius: 10px;
+  background-color: #1E223F;
+  padding: 15px;
+}
+
+.legend {
+  font-size: 0.8em;
+  color: #5F6176;
+  font-weight: 700;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .App {
+    width: 700px;
+  }
+}
